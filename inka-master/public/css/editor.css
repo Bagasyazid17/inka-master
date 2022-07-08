@@ -1,0 +1,152 @@
+/* editor */
+.center{
+    text-align: center;
+}
+
+.add{
+    text-align: center;
+    padding: 7px 0;
+    border: dashed 2px #ccc;
+    margin-top: 20px;
+}
+
+.add img{
+    width: 40px;
+    cursor: pointer;
+}
+
+.row-number, .content-type{
+    text-align: center;
+    padding: 7px;
+}
+
+.add-row, .add-element{
+    margin: 5px 35px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.add-row img{
+    margin: 0px 20px;
+    width: 42px;
+}
+
+.add-row-label, .add-element-label{
+    width: 100%;
+    font-size: 16px;
+}
+
+.type{
+    text-align: left;
+    padding: 15px 0px;
+    border-left: dashed 1px #ccc;
+    border-right: dashed 1px #ccc;
+    background-color: #fff;
+    /*position: relative;*/
+}
+
+.type img{
+    width: 32px;
+    cursor: pointer;
+}
+
+.choose-type{
+    text-align: center;
+    cursor: pointer;
+}
+
+.content-type img{
+    margin: 0px 20px;
+    width: 42px;
+    cursor: pointer;
+}
+
+#content-type{
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+.remove-editor{
+    position: absolute;
+    right: 0px;
+    transform: translateY(-100%);
+    z-index: 10;
+    cursor: pointer;
+}
+
+.reset-content{
+    position: absolute;
+    right: 0px;
+    transform: translateY(-100%);
+    z-index: 10;
+    cursor: pointer;
+}
+
+.section{
+    border: dashed 1px #ccc;
+    border-radius: 1px;
+    margin-bottom: 5px;
+    margin-top: 35px;
+    padding: 10px 3px;
+    background-color: rgb(245, 245, 245);
+    position: relative;
+}
+
+.image-wrapper{
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.image-wrapper img{
+    width: 100%;
+}
+
+.image-wrapper img::hover{
+    opacity: 0.6;
+}
+
+.image-wrapper img::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image-caption{
+    text-align: center;
+    width: 100%;
+    color: #404040;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.video-src{
+    margin: 10px 0;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.video-wrapper{
+    padding-bottom: 56.25%;
+    position: relative;
+    padding-top: 20px; 
+}
+
+.video-wrapper iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100% ;
+}
+
+#ckcontent .row .editor{
+    border-left: dashed 1px #ccc;
+    border-right: dashed 1px #ccc;
+    border-radius: 1px;
+    margin: 10px 0px;
+    margin-top: 30px;
+}

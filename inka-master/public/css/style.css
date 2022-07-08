@@ -1,0 +1,311 @@
+.img-thumbnail {
+    border: none;
+}
+
+.btn-circle {
+    border: 1px solid;
+    border-radius: 25px;
+    padding: 3px 7px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.btn-circle:hover{
+    background-color: #33FAFF;
+    color: #210C3C;
+}
+
+.required-input {
+	content: '';
+}
+
+.required-input:after {
+	content: '*';
+	color: #c7254e;
+	margin-left: 5px;
+}
+
+.sidebar .nav>li>a {
+    padding: 18px 20px;
+    color: #AEB7C2;
+    border-left: 5px solid transparent;
+}
+
+.filter-box {
+    background: #f6f6f6;
+    padding: 10px;
+    display: block;
+    width: 100%;
+}
+
+#cke_1_contents, .cke_wysiwyg_frame, .cke_reset{
+    background-color: #fff;
+}
+
+.spec-form, .gambar-form{
+    margin-bottom: 15px;
+}
+
+.add-form{
+    margin-bottom: 15px;
+}
+
+.remove-spec:hover, .remove-gambar:hover{
+    cursor: pointer;
+}
+
+.product-wrapper{
+    display: block;
+    margin-bottom: 20px
+}
+
+.product-img{
+    display: inline-block;
+    margin: 0px 10px;
+    margin-right: -50px;
+}
+
+.product-img>img{
+    max-width: 200px;
+    max-height: 200px;    
+}
+
+.remove-img{
+    visibility: hidden;
+    position: relative;
+    display: inline-block;
+    left: -50%;
+    padding: 20px 25px;
+    border: 1px solid red;
+    border-radius: 100px;
+    text-align: center;
+}
+
+.remove-img:hover{}
+
+.product-img:hover img{
+    opacity: 0.6;
+}
+
+.product-img:hover .remove-img{
+    visibility: visible;
+    cursor: pointer;
+    background-color: #ff471a;
+    color: #fff;
+    font-weight: bolder;
+    opacity: 0.8;
+}
+
+.berita-img{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.berita-img>img{
+    max-width: 500px;
+    max-height: 300px;
+}
+
+.berita-btn-filter{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.slider-img{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.slider-img>img{
+    max-width: 500px;
+    max-height: 300px;
+}
+
+.slider-preview{
+    max-width: 100px;
+    max-height: 60px;
+}
+
+.media-wrapper{
+    width: 100%;
+    display: block;
+}
+
+.media-item{
+    width: 250px;
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 12px;
+}
+
+.media-item img{
+    max-width: 100%;
+}
+
+.control-item{
+    visibility: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.media-item:hover .control-item{
+    visibility: visible;
+}
+
+.media-item:hover img{
+    opacity: 0.6;
+}
+
+.panel-headline{
+    min-height: calc(100vh - 170px);
+}
+
+.panel-footer{
+    background-color: #fff;
+}
+
+
+/* INKA logo on login page */
+.logo img{
+    width: 150px;
+}
+
+.auth-box .right{
+    background-image: url(../assets/bg/login-bg.jpg);
+}
+
+.auth-box .right .overlay {
+      background: rgba(75, 75, 75, 0.3); 
+}
+
+.auth-box .right .heading {
+    font-weight: 600;
+}
+
+.auth-box .right p {
+    font-weight: 600;
+}
+
+.navbar .brand a img{
+    width: 75px;
+}
+
+.avatar{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.navbar-nav > li > a img{
+    width: 22px;
+    height: 22px;
+    object-fit: cover;
+}
+
+.btn-circle-no-hover{
+    border: 1px solid;
+    border-radius: 25px;
+    padding: 3px 7px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    border-color: #3ca512;
+}
+
+/* home setting */
+.home-add{
+    width: 100%;
+    text-align: center;
+}
+
+.home-element-group{
+    margin: 10px 0;
+    padding: 10px 10px;
+    background: #fbfbfb;
+}
+
+.delete-home-element{
+    cursor: pointer;
+    text-align: right;
+}
+
+.sub-corp-list{
+    list-style-type: circle;
+    padding-left: 20px;
+}
+
+.auth-box .content{
+    width: 90%;
+}
+
+.form-control[readonly]{
+    background-color: transparent;
+}
+
+.panel-dashboard{
+    min-height: auto;
+}
+
+/* Menu */
+
+.bahasa-tab-wrapper{
+    margin-bottom: 20px;
+}
+
+.bahasa-tab{
+    background: #BFBDBE;
+    cursor: pointer;
+    padding: 5px 0;
+    width: 120px;
+    text-align: center;
+    color: #000;
+}
+
+.bahasa-active{
+    background: #403F3F;
+    color: #fff;
+}
+
+.bahasa-child{
+    min-height: 40vh;
+    display: none;
+}
+
+/* Karir Document */
+.document-wrapper{
+    margin-top: 40px;
+}
+
+.karir-file, .procurement-file{
+    margin-bottom: 15px;
+}
+
+.document-add{
+    text-align: center;
+}
+
+.document-add-btn{
+
+}
+
+/* Contact */
+.contact-form-group{
+    width: 100%;
+}
+
+.reply-form{
+    display: none;
+}
+
+table.dataTable button.btn-circle{
+    background-color: transparent;
+    color: #3287B2;
+}
+
+table.dataTable button.btn-circle:hover{
+    background-color: #33FAFF;
+    color: #210C3C;
+}
